@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ZM Homes</title>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.css' rel='stylesheet' />
+
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row bg-white-500">
+        <div class="col-2 fixed border border-5 border-white p-2">
+          <h5>ZM Homes</h5>
+          <div class="">
+            <ul class="mt-4">
+              <li>Dashoard</li>
+               <li>Explore</li>
+                <li>My Purchase</li>
+                 <li>Message</li>
+                  <li>My Profile</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Middle section -->
+        <main class="col-7 bg-middle">
+          <div class="d-flex justify-content-between pt-4">
+            <div>
+              <div>
+                <h1 class="fs-2 fw-bolder">Find Your Dream House</h1>
+              </div>
+              <h3 class="fs-6">For you and your next generation</h3>
+            </div>
+
+            <div class="d-flex bg-white justify-content-center" style="height: 40px; padding: 0px 10px; margin-top: 10px; border-radius: 5px;">
+              <button class="button">Rent</button>
+              <button class="button bg-warning  rounded-2">Buy</button>
+              <button class="button ">Sell</button>
+            </div>
+
+          </div>
+          <!-- button group -->
+          
+
+          <!-- cards -->
+          <div class="row gx-0">
+            <div class="col-sm-4">
+              <div class="card border-0" style="width: 230px">
+                <img class="card-img-top border border-white p-2 rounded-4 " src="./images/realestateabuja_1625963402618_1.jpg" alt="img" />
+                <div class="card-body">
+                  <h5 class="card-title">Boston Heights</h5>
+                  <div>
+                    <p class="card-text mb-2">Husdon Yards, New York</p>
+                  </div>
+                  <div id="card" class="d-flex justify-content-between">
+                    <div>
+                      <i></i>
+                      <h6>6</h6>
+                      <p class="text-secondary">Bedrooms</p>
+                    </div>
+
+                    <div>
+                      <i></i>
+                      <h6>5</h6>
+                      <p class="text-secondary">Bedrooms</p>
+                    </div>
+
+                    <div>
+                      <i></i>
+                      <h6>500m</h6>
+                      <p class="text-secondary">Living Area</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-footer bg-bottom d-flex justify-content-end align-items-center">
+                  <span class="ms-0 me-5 text-light">$269,000</span>
+                  <button class="btn-light btn btn-sm px-3 py-1 text-bottom ">view</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-4">
+              <div class="card border-0" style="width: 230px">
+                <img class="card-img-top border border-white p-2 rounded-4" style="border-radius: 100%;" src="./images/image1.jpg" alt="img" />
+                <div class="card-body">
+                  <h5 class="card-title">Heart Castle</h5>
+                  <div>
+                    <p class="card-text mb-2">Manhattan, New York</p>
+                  </div>
+                  <div id="card" class="d-flex justify-content-between">
+                    <div>
+                      <i></i>
+                      <h6>4</h6>
+                      <p class="text-secondary">Bedrooms</p>
+                    </div>
+
+                    <div>
+                      <i></i>
+                      <h6>3</h6>
+                      <p class="text-secondary">Bedrooms</p>
+                    </div>
+
+                    <div>
+                      <i></i>
+                      <h6>500m</h6>
+                      <p class="text-secondary">Living Area</p>
+                    </div>
+                  </div>
+                </div>
+                 <div class="card-footer border-0  bg-light  d-flex justify-content-end align-items-center">
+                  <span class="ms-0 me-5 text-dark">$345,000</span>
+                  <button class=" btn btn-sm px-3 py-1 bg-bottom   text-white">view</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-4">
+              <div class="card border-0" style="width: 230px">
+                <img class="card-img-top border border-white p-2 rounded-4" src="./images/houseshop.ng_1631804378952_2.jpg" alt="img" />
+                <div class="card-body">
+                  <h5 class="card-title">10 Falcon Point</h5>
+                  <div>
+                    <p class="card-text mb-2">East Village, New York</p>
+                  </div>
+                  <div id="card" class="d-flex justify-content-between">
+                    <div>
+                      <i></i>
+                      <h6>6</h6>
+                      <p class="text-secondary">Bedrooms</p>
+                    </div>
+
+                    <div>
+                      <i></i>
+                      <h6>5</h6>
+                      <p class="text-secondary">Bedrooms</p>
+                    </div>
+
+                    <div>
+                      <i></i>
+                      <h6>500m</h6>
+                      <p class="text-secondary">Living Area</p>
+                    </div>
+                  </div>
+                </div>
+                 
+                 <div class="card-footer bg-bottom d-flex justify-content-end align-items-center">
+                  <span class="ms-0 me-5 text-light">$269,000</span>
+                  <button class="btn-light btn btn-sm px-3 py-1 text-bottom  fw-bold fs-6">view</button>
+                </div>
+              </div>
+              
+            </div>
+
+            <div class="d-flex justify-content-between mt-3" style="width:50%">
+              <p class="fw-bolder" > <span class="border-bottom border-3 border-primary"> Most</span> Popular</p>
+              <p>Near Me</p>
+              <p>Offer</p>
+              <p> Shared Properties</p>
+            </div>
+
+            <div class="row gy-3 p-0">
+              <div class="col-6">
+                <div class="card border-white">
+                  <div class="row ">
+                    <div class="col-4 ">
+                      <img src="./images/houseshop.ng_1631804378952_3.jpg" class="p-2 border-white rounded-4" style="width: 120px;" alt="">
+                    </div>
+                    <div class="col-8 mt-2" style="padding-left: 20px;">
+                      <h6 class="text-dark" style="font-size: 12px; font-weight: 500;" >$142,050</h6>
+                      <p class="my-1" style="font-weight: 700; font-size: 14px;">Happy Habitats</p>
+                      <p style="font-size: 14px; font-weight: 500;"><small class="text-muted"><img src="./img/icons8-location-16.png"> NoMad, NewYork</small></p>
+                      <div class="d-flex justify-content-between text-secondary mt-0" style="width: 50%; font-size: 14px;">
+                        <p>6</p>
+                        <p>5</p>
+                        <p>500m</p>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-6">
+                <div class="card">
+                  <div class="row">
+                    <div class="col-4 ">
+                      <img src="./images/houseshop.ng_1631804378952_2.jpg" class="p-2 border-white rounded-4" style="width: 100px;" alt="">
+                    </div>
+                    <div class="col-8 mt-2">
+                      <h6 >$142,050</h6>
+                      <p>Happy Habitats</p>
+                      <p></p>
+                      <div></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-6">
+                <div class="card">
+                  <div class="row">
+                    <div class="col-4 ">
+                      <img src="./images/realestateabuja_1625963336229_3.jpg" class="p-2 border-white rounded-4" style="width: 100px;" alt="">
+                    </div>
+                    <div class="col-8 mt-2">
+                      <h6 >$142,050</h6>
+                      <p>Happy Habitats</p>
+                      <p></p>
+                      <div></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-6">
+                <div class="card">
+                  <div class="row">
+                    <div class="col-4 ">
+                      <img src="./images/realestateabuja_1625963336229_2.jpg" class="p-2 border-white rounded-4" style="width: 100px;" alt="">
+                    </div>
+                    <div class="col-8 mt-2">
+                      <h6 >$142,050</h6>
+                      <p class="card-title">Happy Habitats</p>
+                      <p></p>
+                      <div></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </main>
+        <!-- right side -->
+        <div class=" bg-white col-3">
+          <div class="d-flex justify-content-end mt-4">
+            <i></i>
+            <div class="bg-warning" class="p-4 rounded-5 border-white relative" style="width: 60px; height: 60px; border-radius: 100%;">
+              <img src="./images/_timini-___CC-_3YIDEg8___-2-removebg-preview.png" class="absolute " style="width: 55px; height: 55px; border-radius: 100%; position: absolute; ; right: 20px;" alt="">
+            </div>
+            
+          </div>
+          <h4 class=" mb-3">Boston Heights</h4>
+          <div class="row">
+            <img class=" col rounded-4 p-2" style="height: 200px;" src="./images/realestateabuja_1625963336229_2.jpg" alt="">
+            <img class= " rounded-4 col-7 p-2" style="height: 100px;" src="./images/houseshop.ng_1631804378952_3.jpg" alt="">
+            <img class= "rounded-4 col-5 p-2" style="height: 100px;" src="./images/realestateabuja_1625963336229_3.jpg" alt="">
+        </div>
+         <h5 class="mt-2">$269,000</h5>
+          <p class="text-secondary " style="font-size: 12px; font-weight: 600;"><img src="./img/icons8-place-marker-16 (1).png" alt=""> Hudson Yards, New york</p>
+          <div class="d-flex justify-content-between"  >
+            <div>
+            <h6>6</h6>
+            <p class="text-secondary" style="font-size: 13px;">Bedroom</p>
+            </div>
+            <div>
+            <h6>5</h6>
+            <p class="text-secondary" style="font-size: 13px;">Bathrooms</p>
+            </div>
+            <div>
+            <h6><img src="./img/icons8-vector-squared-16.png" alt=""> 500m</h6>
+            <p class="text-secondary " style="font-size: 13px;">Living Area</p>
+            </div>
+            
+          </div>
+           <h5 class="my-1">Description</h5>
+           <p class="text-secondary  " style="font-size: 14px;">The property is very luxurious and modern in every way. It can be asset for your all generation and it's very convenient in every way. You can visit this anytime and <span class="text-bottom" style="font-weight: 500;">... Read More</span></p>
+        <div >
+            <div id="map" style="height: 100px; width: 300px; " class="mb-4">
+              
+            </div>
+               <button class="btn btn-warning mb-4 p-2" style="width: 300px ;font-weight: 700;">Proceed to Purchase</button>
+        </div>
+        </div>
+       
+        
+      </div>
+    </div>
+
+    <!-- script -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.js'></script>
+    <script>
+        mapboxgl.accessToken = 'pk.eyJ1Ijoic2FteGllIiwiYSI6ImNsZGZzdmp3YzBxbGMzcXFwYTgwNmlueG0ifQ.eSWQFTgdkG4VnhDwYrWXjA';
+        var map = new mapboxgl.Map({
+         container: 'map',
+        style: 'mapbox://styles/mapbox/streets-v11',
+        center:[-71.060982,42.35725],
+        zoom:18
+        });
+    </script>
+  </body>
+</html>
