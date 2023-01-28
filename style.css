@@ -26,6 +26,9 @@ main h3 {
 .text-bottom {
   color: #082ac9 !important;
 }
+.bg-card-bottom {
+  background-color: #eceeef !important;
+}
 
 .bg-middle {
   background-color: #f4f7fe !important;
@@ -43,4 +46,16 @@ main h3 {
   width: 100%;
   height: 100%;
   border-radius: 10px;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  cursor: pointer;
+}
+ul > li:hover {
+  color: #082ac9;
+  transition: all;
+  transition-duration: 300ms;
 }
