@@ -51,11 +51,24 @@ ul {
   list-style-type: none;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+
   cursor: pointer;
 }
 ul > li:hover {
   color: #082ac9;
   transition: all;
   transition-duration: 300ms;
+}
+.nav-list {
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+.nav-list img {
+  width: 20px;
+  height: 20px;
+}
+.nav-list p {
+  margin-top: 15px;
+  width: 200px;
 }
