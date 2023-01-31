@@ -72,3 +72,9 @@ ul > li:hover {
   margin-top: 15px;
   width: 200px;
 }
+
+@media (max-width: 600px) {
+  .type {
+    flex-direction: column;
+  }
+}
